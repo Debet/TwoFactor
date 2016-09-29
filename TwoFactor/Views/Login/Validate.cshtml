@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Validate";
+}
+
+<h2>Validate</h2>
+<form action="/Login/Check" method="POST">
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email"/>
+
+    <br/>
+    <label for="text">Pin:</label>
+    <input type="text" name="pin" id="text"/>
+    <br/>
+    <input type="submit"/>
+</form>
